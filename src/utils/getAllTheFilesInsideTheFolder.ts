@@ -1,4 +1,4 @@
-import * as fsp from 'fs/promises';
+import { readdir } from 'fs/promises';
 
 /**
  * @param {String} folder
@@ -6,7 +6,7 @@ import * as fsp from 'fs/promises';
  */
 
 export async function getAllTheFilesInsideTheFolder(folder: string) {
-  const folderInside = await fsp.readdir(folder);
+  const folderInside = await readdir(folder);
 
   return folderInside;
 }
