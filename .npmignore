@@ -1,0 +1,9 @@
+# Ignore everything
+*
+
+# But not these files...
+!dist/
+!index.js
+
+# ...even if they are in subdirectories
+!*/
