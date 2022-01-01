@@ -1,4 +1,11 @@
 import convertToPascalCase from './convertToPascalCase';
+import getVariantsBaseOnParentFolder from './getVariantsBaseOnParentFolder';
 import getAllTheFilesInsideTheFolder from './getAllTheFilesInsideTheFolder';
+import generateVariantsPathesBaseOnFolders from './generateVariantsPathesBaseOnFolders';
 
-export { convertToPascalCase, getAllTheFilesInsideTheFolder };
+export default {
+  convertToPascalCase,
+  getVariantsBaseOnParentFolder,
+  getAllTheFilesInsideTheFolder,
+  generateVariantsPathesBaseOnFolders,
+};
