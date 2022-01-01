@@ -4,6 +4,10 @@
   "main": "index.js",
   "author": "Yasin Silavi <ys.silavi@gmail.com>",
   "license": "ISC",
+  "scripts": {
+    "build": "webpack --mode=production",
+    "dev": "webpack --mode=development --watch"
+  },
   "devDependencies": {
     "@types/node": "17.0.5",
     "@types/webpack": "5.28.0",
