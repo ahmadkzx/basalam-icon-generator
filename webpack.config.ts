@@ -3,6 +3,7 @@ import * as webpack from 'webpack';
 
 const config: webpack.Configuration = {
   entry: path.join(__dirname, 'src/index.ts'),
+  target: 'node',
 
   module: {
     rules: [
